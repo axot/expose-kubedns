@@ -1,10 +1,4 @@
 #!/bin/bash
-
-set -ex
-set -o pipefail
-
-cat nodelocaldns.yaml \
-  | kubectl delete -f -#!/bin/bash
 set -ex
 
 DEFAULT_COREDNS_IMAGE=coredns/coredns:1.6.2
